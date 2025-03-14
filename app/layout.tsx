@@ -18,6 +18,7 @@ const NAVIGATION: Navigation = [
     title: 'Dashboard',
     icon: <DashboardIcon />,
   },
+  { kind: 'divider' },
   {
     segment: 'orders',
     title: 'Orders',
