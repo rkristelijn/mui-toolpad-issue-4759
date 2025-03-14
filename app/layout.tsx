@@ -6,6 +6,11 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import LinearProgress from '@mui/material/LinearProgress'
 import type { Navigation } from '@toolpad/core/AppProvider';
 
+export const metadeta = {
+  title: 'My Toolpad Core Next.js App',
+  description: 'This is a sample app built with Toolpad Core and Next.js',
+};
+
 import theme from '../theme';
 
 const NAVIGATION: Navigation = [
